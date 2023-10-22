@@ -1,14 +1,13 @@
-# Regras de Negócio
-[ X ] Deve ser possível criar um usuário
-[ X ] Deve ser possível identificar o usuário entre as requisições
-[ X ] Deve ser possível registrar uma refeição feita, com as seguintes informações: Nome, Descrição, Data e Hora, Está dentro ou não da dieta
-[ X ] Deve ser possível listar todas as refeições de um usuário
-[ X ] Deve ser possível apagar uma refeição
-[ X ] Deve ser possível visualizar uma única refeição
-[ X ] Deve ser possível editar uma refeição, podendo alterar todos os dados acima
-[  ] Deve ser possível recuperar as métricas de um usuário
-    ( ) Quantidade total de refeições registradas
-    ( ) Quantidade total de refeições dentro da dieta
-    ( ) Quantidade total de refeições fora da dieta
-    ( ) Melhor sequência por dia de refeições dentro da dieta
-[ X ] O usuário só pode visualizar, editar e apagar as refeições o qual ele criou
+# Diet App Backend
+This is the backend component of a Diet App, developed using TypeScript, Fastify, and Knex. The Diet App backend provides a comprehensive set of APIs to manage user accounts, retrieve meals, create new meals, update existing ones, and delete meals. It is designed to empower users to maintain their dietary plans effectively.
+
+# Features
+- User Authentication: Users can create an account and securely authenticate using the provided credentials.
+
+- Meal Management: The app enables users to perform various operations on their meals, including viewing, adding, updating, and deleting meals.
+
+- Database Integration: The application uses Knex, a SQL query builder, to interact with a database, making data retrieval and storage efficient and reliable.
+
+- TypeScript: The project is developed using TypeScript, which provides static typing and helps in catching errors early in the development process.
+
+- Fastify: Fastify is a high-performance web framework for Node.js. It's used to create robust, efficient, and highly scalable RESTful APIs.
